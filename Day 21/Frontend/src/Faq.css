@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=OpenSans);
+
+.faqname {
+  text-align: center;
+}
+
+.faq-heading {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  cursor: pointer;
+}
+
+.faq-text {
+  font-family: Open Sans;
+  font-weight: 400;
+  color: #666;
+  margin-top: 10px;
+}
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.faq label {
+  display: block;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s;
+}
+
+.faq label:hover {
+  background-color: #e0e0e0;
+}
+
+
+
+
+/* Hide scrollbars */
+.faq::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}

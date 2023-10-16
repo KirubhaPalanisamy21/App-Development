@@ -1,0 +1,56 @@
+/* FeedbackForm.css */
+
+.feedback-container {
+    background-image: url("https://www.itsjustlight.com/wp-content/uploads/2015/10/Copenhagen-Denmark-Travel-Photography.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feedback-form {
+    background-color: rgba(181, 179, 179, 0.9); /* Add a semi-transparent white background */
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    height: 650px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  select,
+  textarea,
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #0a0a0a;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #282726;
+    color: #040404;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #302e2e4b;
+  }

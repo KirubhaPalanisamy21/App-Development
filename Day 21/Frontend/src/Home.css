@@ -1,0 +1,290 @@
+/* html{
+    background-color: rgb(5, 5, 5) no-repeat 50% 50% fixed; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Sahitya', cursive, sans-serif;
+} */
+
+#home{
+    height: 500px !important;
+}
+
+#portfolio{
+    height: 600px !important;
+}
+#contact{
+    height: 680px !important;
+}
+
+#about, #portfolio, #contact{
+    padding-top: 70px;
+}
+
+#home{
+    height: 100%;
+    width: 100%;   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;   
+}
+
+#about{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: block;    
+}
+
+#portfolio{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 200%;
+    left: 0px;
+    display: block;
+}
+
+#contact{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 378%;
+    left: 0px;
+    display: block;   
+}
+
+.navbar{   
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(8, 8, 8) !important;
+    z-index: 100;
+    display: block;   
+}
+
+#myNavbar ul{
+    padding-top: 11px;
+}
+
+/* nav li{
+    float: right;
+} */
+
+#myNavbar li a{ 
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 50px;
+    color: rgb(253, 248, 248);
+    background-color: rgb(9, 9, 9);
+    font-family: 'Sahitya', cursive, sans-serif;
+}
+
+.lg-position{
+    padding-top: 20px !important;
+}
+
+.text-style{
+    font-family: 'Sahitya', cursive, sans-serif;
+    font-weight: 800;
+}
+
+
+.tab-right{
+    float: right;
+    padding-bottom: 10px;
+}
+
+
+
+.home-page{
+    padding-top: 150px;
+    font-family: 'Sahitya', cursive, sans-serif;
+    font-weight: 800;
+
+}
+
+.style-name{
+    font-size: 90px;
+    color: rgb(8, 8, 8);
+}
+
+.style-description{
+    font-size: 35px;
+    padding-bottom: 25px;
+    color: rgb(110, 98, 98);
+}
+
+hr{
+    height: 3px !important;
+    background-color:rgb(7, 1, 1);
+}
+
+.btn{
+    color: #c41a1a;
+}
+
+.btn{
+    color: #0d0d0d !important;
+}
+
+ 
+.btn-twitter, 
+.btn-linkedin, 
+.btn-github
+{
+    font-size: 1.6em;
+    background-color: #fffbfb;
+}
+
+.btnList{
+    padding-top: 30px;
+}
+
+
+
+.btn-twitter:hover{
+    background-color: #898e90;
+}
+
+.btn-linkedin:hover{
+    background-color: #898e90;
+}
+
+.btn-github:hover{
+    background-color: #898e90;
+}
+
+
+
+.block{
+    border: 2px thin solid;
+}
+
+/*About*/
+.about-info{
+    font-size: 22px;
+    color:#0e0e0e;
+    font-family: 'Sahitya', cursive, sans-serif;
+}
+
+.about-style{
+    border: thin solid;
+    color: rgb(113, 109, 109);
+    opacity: 0.7;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #d7d1d1;
+    border-radius: 0.5%;
+}
+     
+/*Portfolio*/
+
+.portfolio-item{
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+ 
+.portfolio-item:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+/*Contact*/
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Form CSS*/
+.ccform {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.submit{
+    padding-left: 50px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:200%;
+}
+
+
+.ccform-addon{
+	color:000000; 
+	float:left;
+	padding:8px;
+	width:8%;
+	text-align:center;
+  padding-top: 0%;
+}
+.place-holder
+{
+    width: 20%;
+    height: 30px;
+    background-color: #ded3d3;
+    border-radius: 10px;
+    
+}
+
+.ccformfield {
+	color:#726c6c; 
+	background-color: beige;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:rgb(10, 10, 10);
+	color:rgb(244, 239, 239);
+	padding:12px 25px;
+    margin-left: 400px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background-color: rgb(68, 57, 57);
+}
+
+
+/*Footer*/
+
+#footer{
+    position:fixed;
+    height:80px;
+    background-color:rgb(137, 134, 134);
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+.footer-position{
+    font-family: 'Sahitya', cursive, sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
